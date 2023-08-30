@@ -1,16 +1,20 @@
+from  application import salary
 from application.db import people
-from application import salary
+
 import datetime
 
-import env as env
+# import env as env
 
 if __name__ == '__main__':
 
-    print (datetime.date.today())
-    def calculate_salary()
-    def get_employees()
+
+    salary.calculate_salary()
+    people.get_employees()
+    print(datetime.date.today())
 
 
 
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
+
